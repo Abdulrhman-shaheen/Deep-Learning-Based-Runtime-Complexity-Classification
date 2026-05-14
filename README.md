@@ -1,6 +1,6 @@
 # Machine Learning-Based Runtime Complexity Classification
 
->> Predicting asymptotic runtime complexity from source code using machine learning — without executing the program.
+> Predicting asymptotic runtime complexity from source code using machine learning — without executing the program.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
