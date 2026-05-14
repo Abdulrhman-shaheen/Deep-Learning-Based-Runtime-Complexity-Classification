@@ -1,0 +1,37 @@
+{
+  "feature_columns": [
+    "num_loops",
+    "num_for",
+    "num_while",
+    "max_loop_depth",
+    "has_nested_loops",
+    "has_log_update",
+    "uses_sort",
+    "recursion_flag",
+    "num_recursive_calls",
+    "has_break",
+    "has_continue",
+    "has_early_return",
+    "uses_comprehension",
+    "uses_generator",
+    "loop_linear",
+    "loop_log",
+    "loop_mixed",
+    "loop_unknown"
+  ],
+  "drop_columns": [
+    "code",
+    "representation",
+    "uses_list",
+    "uses_dict",
+    "uses_set",
+    "uses_tuple",
+    "num_return",
+    "num_function_calls"
+  ],
+  "target_column": "complexity",
+  "categorical_columns": [
+    "loop_bound_type"
+  ],
+  "notes": "For prediction, create the same features, apply get_dummies, then reindex to feature_columns with fill_value=0."
+}
